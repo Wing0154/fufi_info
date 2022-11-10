@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="FutureFi is a new-age blockchain. Future's Finance is an umbrella brand that hosts several products and services. FutureFi Blockchain is powered by FUFI Coin">
+    <meta name="keywords" content="FutureFi, Futures's Finance, FUFI, 富菲, ФУФИ, 후피, Blockchain">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="google-site-verification" content="We7QXoGVfz5TEuKtWnzV0VqaDy5TeneQ4iSWqq63fW0" /> 
+   
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,100;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+   
+    <title>Future's Finance - FUFI | FutureFi Blockchain</title>
+  </head>
+  <body id="bdies">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://www.schema.org",
+        "@type": “financial services",
+        "name": " Future's Finance FutureFi - FUFI",
+        "url": " https://fufi.info/ ",
+        "logo": " data:image/png;base64,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 ",
+        "description": "FutureFi is a new-age blockchain. Future's Finance is an umbrella brand that hosts several products and services. FutureFi Blockchain is powered by FUFI Coin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "  GROUND FLOOR, Fairdeal Bhawan, B58, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010 ",
+          "Call us":#",
+          "addressLocality": "Lucknow",
+          "addressRegion": " Lucknow ",
+          "postalCode": "226010",
+          "addressCountry": "India"
+        }]
+      }</script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215542944-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-215542944-1');
+      </script>
+
+  </body>
+</html>

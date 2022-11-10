@@ -1,0 +1,182 @@
+.section-nine{
+    float: left;
+    clear: both;
+    width: 100%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.piechart{
+    padding: 25px;
+}
+.piechart canvas{
+    overflow: visible !important;
+    width: 100% !important;
+}
+
+svg.charts {
+    width: 18rem;
+    margin-top: 3rem;
+}
+.token_list{
+    white-space: break-spaces;
+    font-variation-settings: "wght" 400;
+    background: #e9d5d8;
+    min-height: 6rem;
+    margin-top: 2rem;
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 1.7px 0.8px 7px 0 rgb(157 157 157 / 30%);
+    color: #464545 !important;
+    font-size: 0.999rem !important;
+    overflow-x: auto !important;
+    text-align: justify !important;
+    line-height: 23px !important;
+}
+
+
+.boxify-chart{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.per_float{
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    bottom: -4px;
+    padding: 5px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background: #e9d5d8;
+    font-size: 12px;
+    right: -4px;
+    font-weight: bold;
+    border-bottom: 1px solid #c7c0c1;
+    border-right: 1px solid #c7c0c1;
+}
+
+
+.fortokens.tok1{
+    border-color: rgb(194 227 249);
+    background-color: rgb(255, 51, 51);
+}
+
+
+
+.fortokens.tok2{
+    border-color: rgb(255 208 218);
+    background-color: rgb(255, 117, 117);
+}
+
+.fortokens.tok3{
+    border-color: rgb(255, 206, 86);
+    background-color: rgba(255, 149, 149);
+}
+
+
+.fortokens.tok4{
+    border-color: rgba(167, 0, 0, 0.6);
+    background-color: rgba(185, 51, 51);
+}
+
+
+.fortokens.tok5{
+    border-color: rgb(153, 102, 255);
+    background-color: rgba(201, 133, 133);
+}
+
+.fortokens.tok6{
+    border-color: rgb(252 223 195);
+    background-color: rgba(231, 97, 97);
+}
+
+
+.tokenhd_div{
+    margin: auto;
+}
+.flexifd{
+    display: inline-block;
+    width: 70px;
+    padding-left: 8px;
+}
+
+@media (min-width: 768px){
+    .flexifd{
+        display: inline-block;
+        width: 58px;
+        padding-left: 8px;
+    }
+    
+}
+
+@media (min-width:992px){
+    .flexifd{
+        display: inline-block;
+        width: 58px;
+        padding-left: 8px;
+    }
+    
+}
+
+
+@media (min-width: 1200px){
+    .flexifd{
+        display: inline-block;
+        width: 70px;
+        padding-left: 8px;
+    }
+    
+}
+
+
+@media (min-width: 1600px){
+    .flexifd{
+        display: inline-block;
+        width: 70px;
+        padding-left: 8px;
+    }
+    
+}
+
+
+
+.flexifd div:nth-child(1)::after{
+   content: '%';
+   position: relative;
+}
+
+.borbutmn{
+    height: 38px;
+    border: 1px solid;
+}
+
+
+
+.token_text{
+    font-size: 1.1rem;
+    line-height: 28px;
+    text-align: justify;
+    color: #6e6e6e;
+}
+
+.chart_text_div{
+    margin: 2rem auto;
+}
+
+@media (max-width: 850px){
+    .per_float {
+        height: 3.5rem;
+        width: 3.5rem;
+        top: -2rem;
+        left: -10px;
+    }
+}

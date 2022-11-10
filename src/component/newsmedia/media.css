@@ -1,0 +1,16 @@
+.rec-carousel-wrapper{
+    height: 100% !important;
+    justify-content: center!important;
+}
+
+
+.rec-carousel-item{
+    margin: 0 auto !important;
+}
+
+
+
+.bidfyes{
+    width: 100%  !important;
+    text-align: left  !important;
+}

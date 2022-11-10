@@ -1,0 +1,40 @@
+#my-div
+{
+    overflow : hidden;
+    position : relative;
+}
+
+#innerIframe{
+    position: relative;
+    margin-top: -20em;
+    height: 1824px;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    #innerIframe{
+        position: relative;
+        margin-top: -20em;
+        height: 986px;
+        width: 100%;
+    }  
+}
+
+
+@media (min-width: 1600px){
+    #innerIframe{
+        position: relative;
+        margin-top: -20em;
+        height: 990px;
+        width: 100%;
+    }
+}
+
+
+.mg-standhead{
+    display: none !important;
+  }
+
+  .navbar.navbar-expand-lg.navbar-wp{
+    display: none !important; 
+  }

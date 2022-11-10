@@ -1,0 +1,98 @@
+
+.sc-bczRLJ {
+
+    background: #fff !important;
+     overflow: visible  !important;
+}
+
+
+.digimnx{
+    margin: 0 auto;
+    max-width: 955px;
+    background: #F9F9F9;
+    text-align: left !important;
+    font-size: 1.9vw;
+    text-transform: capitalize;
+    color: #707070;
+    letter-spacing: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 21px;
+    box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+    padding: 1rem 2rem;
+}
+
+.digimnx h5{
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    color: #e23939;
+    letter-spacing: 0px;
+    text-align: left !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+}
+
+
+@media (max-width: 768px){
+    .digimnx{
+        margin: 0 auto;
+    max-width: 955px;
+    background: #F9F9F9;
+    text-align: left !important;
+    font-size: 4.2vw;
+    text-transform: capitalize;
+    color: #707070;
+    letter-spacing: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 21px;
+    box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+    padding: 1rem 2rem;
+    }
+     
+.digimnx h5{
+    font-size: 4.2vw;
+    text-transform: capitalize;
+    color: #121212;
+    letter-spacing: 0px;
+    text-align: center !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+  
+} 
+}
+
+@media (min-width: 1600px){
+    .digimnx{
+        margin: 0 auto;
+    max-width: 1345px;
+    background: #F9F9F9;
+    text-align: left !important;
+    font-size: 2.2vw;
+    text-transform: capitalize;
+    color: #707070;
+    letter-spacing: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    line-height: 85px;
+    border-radius: 21px;
+    box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+    padding: 1rem 2rem;
+    }
+   
+.digimnx h5{
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    color: #e23939;
+    letter-spacing: 0px;
+    text-align: left !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+  
+}   
+}

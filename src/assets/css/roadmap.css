@@ -1,0 +1,261 @@
+.ps-timeline-sec {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  margin-top: 5px;
+  top: 0;
+  margin-bottom: 15px;
+}
+.ps-timeline-sec .containervb {
+  position: relative;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+
+  .ps-timeline-sec .containervb ol.ps-timeline {
+    margin: 130px 0 !important;
+    border-left: 2px solid #348e80;
+    padding-left: 0 !important;
+    padding-top: 120px !important;
+    border-top: 0 !important;
+    margin-left: 25px !important;
+  }
+  .ps-timeline-sec .containervb ol:before {
+    background: #348e80;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 130px !important;
+    left: 36px !important;
+  }
+  .ps-timeline-sec .containervb ol:after {
+    background: #348e80;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: inherit !important;
+    left: 36px;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline {
+    margin: 130px 0 !important;
+    border-left: 2px solid #4b4b4d;
+    padding-left: 0 !important;
+    padding-top: 120px !important;
+    border-top: 0 !important;
+    margin-left: 25px !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li {
+    height: 220px;
+    float: none !important;
+    width: inherit !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li:nth-child(2) .img-handler-bot img {
+    width: 70px;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li:last-child {
+    margin: 0;
+    bottom: 0 !important;
+    height: 120px;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li:last-child .img-handler-bot {
+    bottom: 40px !important;
+    width: 40% !important;
+    margin-left: 25px !important;
+    margin-top: 0 !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li:last-child .img-handler-bot img {
+    width: 100%;
+  }
+
+  .ps-timeline-sec .containervb ol.ps-timeline li span {
+    left: 0 !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-top:before {
+    content: none !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-top:after {
+    content: none !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-bot:before {
+    content: none !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-bot:after {
+    content: none !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li .img-handler-top {
+    position: absolute !important;
+    bottom: 150px !important;
+    width: 30% !important;
+    float: left !important;
+    margin-left: 35px !important;
+    margin-bottom: 0 !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li .img-handler-top img {
+    margin: 0 auto !important;
+    width: 80% !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li .img-handler-bot {
+    position: absolute !important;
+    bottom: 115px !important;
+    width: 30% !important;
+    float: left !important;
+    margin-left: 35px !important;
+    margin-bottom: 0 !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li p {
+    text-align: left !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    margin-top: 0px !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li .ps-top {
+    width: 86% !important;
+    float: left !important;
+    left: 35px;
+    top: -124px;
+    border-radius: 15px !important;
+    padding: 7px 12px !important;
+  }
+  .ps-timeline-sec .containervb ol.ps-timeline li .ps-bot {
+    width: 86% !important;
+    float: left !important;
+    left: 35px;
+    top: -124px;
+    border-radius: 15px !important;
+    padding: 7px 12px !important;
+  }
+}
+
+
+.ps-timeline-sec .containervb ol.ps-timeline {
+  margin: 325px 0;
+  padding: 0;
+  border-top: 2px solid #4b4b4d;
+  list-style: none;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li {
+  float: left;
+  width: 25%;
+  padding-top: 30px;
+  position: relative;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li span {
+  font-family: 'Rajdhani', sans-serif;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  background: #fff;
+  border: 2px solid #4b4b4d;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0px #fff;
+  text-align: center;
+  line-height: 2.1;
+  color: #eb3239;
+  font-size: 1.5em;
+  font-style: normal;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  font-weight: 600;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-top:before {
+  content: "";
+  color: #348e80;
+  width: 2px;
+  height: 50px;
+  background: #4b4b4d;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-top:after {
+  content: "";
+  color: #348e80;
+  width: 8px;
+  height: 8px;
+  background: #348e80;
+  position: absolute;
+  bottom: 90px;
+  left: 44%;
+  border-radius: 100%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-bot:before {
+  content: "";
+  color: #348e80;
+  width: 2px;
+  height: 50px;
+  background: #4b4b4d;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li span.ps-sp-bot:after {
+  content: "";
+  color: #348e80;
+  width: 8px;
+  height: 8px;
+  background: #348e80;
+  position: absolute;
+  top: 90px;
+  left: 44%;
+  border-radius: 100%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .img-handler-top {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 130px;
+  width: 100%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .img-handler-top img {
+  display: table;
+  margin: 0 auto;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .img-handler-bot {
+  position: absolute;
+  margin-top: 60px;
+  width: 100%;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .img-handler-bot img {
+  display: table;
+  margin: 0 auto;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .ps-top {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 100px;
+  padding: 25px 2px;
+  border-radius: 50px;
+}
+.ps-timeline-sec .containervb ol.ps-timeline li .ps-bot {
+  position: absolute;
+  margin-top: 35px;
+  padding: 25px 2px;
+  border-radius: 0;
+ 
+}
+
+
+@media (min-width: 1600px){
+
+  .ps-timeline-sec .containervb ol.ps-timeline {
+    margin: 100px 0px;
+  }
+
+  .ps-timeline-sec {
+    position: relative;
+    background: #fff;
+    float: left;
+    margin-top: 5rem;
+    top: 0;
+    margin-bottom: 12rem;
+  }
+}

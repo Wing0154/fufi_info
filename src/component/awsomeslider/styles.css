@@ -1,0 +1,220 @@
+
+.sc-bczRLJ {
+
+    background: #fff !important;
+     overflow: visible  !important;
+}
+
+
+
+.smol-flexbox-grid {
+    --min: 10ch;
+    --gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    margin-top: 3rem;
+  }
+  
+  .smol-flexbox-grid > * {
+    flex: 1 1 var(--min);
+  }
+  
+  /* Additional demo styles from SmolCSS.dev
+     Not all styles may be needed for this pen */
+  body > ul {
+    list-style: none;
+    margin: 0;
+  }
+  body > ul:not([data-padding-unset]) {
+    padding: 0;
+  }
+  
+  [class*=smol]:not([data-component]) > *:not([data-unstyled]) {
+    display: grid;
+    padding: 0;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.15em;
+    border: 1px dashed;
+  }
+  [class*=smol]:not([data-component]) > *:not([data-unstyled]):not([data-text]) {
+    place-content: center;
+  }
+  [class*=smol]:not([data-component]) > *:not([data-unstyled])[data-text] {
+    font-size: 1.15rem;
+    text-align: left;
+  }
+  
+  [data-container-style] {
+    outline: 2px dotted #29344B;
+  }
+
+
+
+
+
+
+
+
+
+.awssld__content {
+    background-color: #e33939 !important;
+}
+
+.awssld__container {
+    height: 100vh;
+}
+.bifixes{
+    width: 20vw;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.bifixes img{
+    max-width: 100%;
+}
+
+
+@media (max-width:768px) {
+    .bifixes{
+        width: 60vw;
+        margin: 0 auto;
+    }
+}
+
+.awssld__bullets {
+    bottom: 20px !important;
+}
+@media (max-width: 520px){
+.awssld__bullets {
+    position: relative;
+    bottom: 0 !important;
+}}
+
+.rec.rec-swipable{
+    align-items: center!important;
+    justify-content: center;
+}
+
+
+.digimnx{
+    margin: 0 auto 25px;
+    max-width: 955px;
+    background: #fff;
+    text-align: left !important;
+    font-size: 1.22vw;
+    text-transform: capitalize;
+    color: #707070;
+    letter-spacing: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height:32px;
+    border-radius: 21px;
+    box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+    padding: 1rem 2rem;
+}
+
+.krmNah {
+    background-color: rgb(223 17 17 / 50%) !important;
+    box-shadow: 0 0 1px 2px rgb(235 50 57) !important;
+}
+
+
+.digimnx h5{
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    color: #e23939;
+    letter-spacing: 0px;
+    text-align: left !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+}
+
+.rec-arrow-left{
+    background: #e23939 !important;
+}
+
+.rec-arrow-right{
+    background: #e23939 !important;
+}
+
+
+@media (max-width: 768px){
+    .digimnx{
+        margin: 0 auto;
+        max-width: 955px;
+        background: #F9F9F9;
+        text-align: left !important;
+        font-size: 3.8vw;
+        text-transform: capitalize;
+        color: #707070;
+        letter-spacing: 0;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 500;
+        line-height: 32px;
+        border-radius: 21px;
+        box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+        padding: 1rem 1rem;
+    }
+     
+.digimnx h5{
+    font-size: 8.2vw;
+    text-transform: capitalize;
+    color: #e53939;
+    letter-spacing: 0px;
+    text-align: center !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+  
+} 
+}
+
+@media (min-width: 1600px){
+    .rec-arrow-left{
+        background: #e23939 !important;
+        width: 100px!important;
+        height: 93px!important;
+        border-radius: 150px!important;
+    }
+    
+    .rec-arrow-right{
+        background: #e23939 !important;
+        width: 100px!important;
+        height: 93px!important;
+        border-radius: 150px!important;
+    }
+    
+    .digimnx{
+        margin: 0 auto;
+        max-width: 1345px;
+        background: #F9F9F9;
+        text-align: left !important;
+        font-size: 1.5vw;
+        text-transform: capitalize;
+        color: #707070;
+        letter-spacing: 0;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 500;
+        line-height: 70px;
+        border-radius: 21px;
+        box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 2.5px 4.2px rgb(0 0 0 / 13%), 0 1px 11px rgb(0 0 0 / 4%);
+        padding: 1rem 2rem;
+    }
+   
+.digimnx h5{
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    color: #e23939;
+    letter-spacing: 0px;
+    text-align: left !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+  
+}   
+}
