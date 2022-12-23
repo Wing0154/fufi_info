@@ -92,7 +92,7 @@ const sendMessage = () => {
 
 
 <p>
-Future's Finance Is A Decentralized Blockchain For The Modern Era. It Combines Cutting-Edge Technologies To Provide Decentralized Applications, Systems, And Communities With Unparalleled Security And Sustainability.<br/>
+Future's Finance Is A Decentralized & centralised Blockchain For The Modern Era. It Combines Cutting-Edge Technologies To Provide Decentralized Applications, Systems, And Communities With Unparalleled Security And Sustainability.<br/>
 FutureFi Blockchain Combines Artificial Intelligence And Machine Learning With Proof Of Authority, Proof Of Burned Stakes, And Proof Of Delegated Stakes To Provide A Fair, Transparent, And Scalable Platform Capable Of Hosting A Variety Of Decentralised Applications For Real-World Use Cases.
 </p>
 
