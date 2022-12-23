@@ -43,7 +43,7 @@ const Navigation = () => {
                             <nav>
                                 <ul>
                                     <li class="has-dropdown">
-                                    <a href="/">Home</a>
+                                    <a href="/">Dashboard</a>
                                     {/* <Link to="/">Home Page</Link> */}
                                     </li>
                                     <li class="has-dropdown">
