@@ -15,8 +15,6 @@ import Navigation from '../src/navigation/Navigation'
 
 import Footer from '../src/component/footer/footer'
 
-
-
 function App() {
   return (
     <>
